@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+body {
+  background-color: white;
+}
+@keyframes flash {
+  0%,
+  100% {
+    background-color: red;
+  }
+
+  50% {
+    background-color: black;
+  }
+}
+
+.animate-flash {
+  animation: flash 0.15s steps(1, end) infinite;
+}
