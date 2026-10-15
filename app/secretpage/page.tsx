@@ -14,7 +14,7 @@ export default function SecretPage() {
   useEffect(() => {
     const timer = setTimeout(() => {
       router.replace("/page3_behindThePhotosIsTheCode");
-    }, 3000);
+    }, 3500);
     return () => clearTimeout(timer);
   }, [router]);
 
@@ -29,7 +29,7 @@ export default function SecretPage() {
         />
       </div>
       <div className="w-[50%] h-full flex justify-center items-center bg-black">
-        <div className="flex flex-col justify-center items-center gap-5 bg-yellow-300 p-5 rounded-lg">
+        <div className="flex flex-col justify-center items-center gap-5 p-5 rounded-lg">
           {showText && (
             <p className="text-[50px] font-bold bg-black pr-5 pl-5 text-center text-red-500">
               The clue is in the search bar

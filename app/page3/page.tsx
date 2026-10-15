@@ -56,7 +56,7 @@ export default function Page3() {
             </button>
             {showText && (
               <button
-                className="fixed bottom-50 bg-red-500 font-bold text-[25px] text-white px-8 py-2 rounded-xl cursor-pointer hover:bg-red-600 transition duration-300"
+                className="fixed bottom-50 bg-blue-400 font-bold text-[25px] text-white px-8 py-2 rounded-xl cursor-pointer hover:bg-blue-600 transition duration-300"
                 onClick={handleSecret}
               >
                 The secret
