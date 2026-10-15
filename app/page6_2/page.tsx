@@ -12,7 +12,7 @@ export default function Page6_1() {
   }, [router]);
   return (
     <div className="h-screen w-screen flex">
-      <div className="w-[50%] h-full bg-blue-300 flex justify-center items-center">
+      <div className="w-[50%] h-full flex justify-center items-center">
         <img
           src="/shocked_cat.jpg"
           alt="no image bruh"
@@ -20,7 +20,7 @@ export default function Page6_1() {
           height="500"
         />
       </div>
-      <div className="w-[50%] h-full bg-green-400 flex justify-center items-center"></div>
+      <div className="w-[50%] h-full  flex justify-center items-center"></div>
     </div>
   );
 }

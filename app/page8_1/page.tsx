@@ -36,7 +36,7 @@ export default function Page7_1() {
           </button>
         </div>
       )}
-      <div className="w-[50%] h-full bg-blue-300 flex justify-center items-center">
+      <div className="w-[50%] h-full flex justify-center items-center">
         <img
           src="/big_happy_cat.jpg"
           alt="no image bruh"
@@ -44,9 +44,9 @@ export default function Page7_1() {
           height="500"
         />
       </div>
-      <div className="w-[50%] h-full bg-green-400 flex justify-center items-center">
-        <div className="flex flex-col justify-center items-center gap-5 bg-yellow-300 p-5 rounded-lg">
-          <p className="text-[25px] font-bold bg-[#FFFF00] pr-5 pl-5 text-center">
+      <div className="w-[50%] h-full flex justify-center items-center">
+        <div className="flex flex-col justify-center items-center gap-5 bg-[#90D5FF] p-5 rounded-lg">
+          <p className="text-[25px] font-bold pr-5 pl-5 text-center">
             Bye bye!!!
           </p>
         </div>
