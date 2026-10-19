@@ -17,3 +17,28 @@ body {
 .animate-flash {
   animation: flash 0.15s steps(1, end) infinite;
 }
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.blink-1 {
+  animation: blink 1s steps(1, end) 0s infinite;
+}
+
+.blink-2 {
+  animation: blink 1s steps(1, end) 0.25s infinite;
+}
+
+.blink-3 {
+  animation: blink 1s steps(1, end) 0.5s infinite;
+}
+
+.blink-4 {
+  animation: blink 1s steps(1, end) 0.75s infinite;
+}
