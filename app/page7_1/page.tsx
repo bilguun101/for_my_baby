@@ -14,8 +14,7 @@ export default function Page7_1() {
       <div className="w-[50%] h-full flex justify-center items-center">
         <div className="flex flex-col justify-center items-center gap-10 bg-[#90D5FF] p-5 rounded-lg w-200 h-80">
           <p className="text-[25px] font-bold pr-5 pl-5 text-center">
-            I think you know too much now. I think you should leave before I
-            have to do something drastic.
+            I think you know too much. I can&apos;t just simply let you go now.
           </p>
           <div className="flex flex-col gap-5 justify-center items-center">
             <button
