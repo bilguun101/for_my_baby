@@ -11,6 +11,11 @@ export default function Page5() {
   };
   return (
     <div className="h-screen w-screen flex">
+      <div className="absolute bottom-1 right-5">
+        <span className="text-[#8B4513] text-[30px] font-bold">B</span>
+        <span className="text-red-500 text-[30px] font-bold">R</span>
+        <span className="text-purple-600 text-[30px] font-bold">P</span>
+      </div>
       <div className="w-[50%] h-full flex justify-center items-center">
         <img src="/cookie_eating_cat.jpg" alt="no image bruh" />
       </div>

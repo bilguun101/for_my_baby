@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-export default function Page3_behindThePhotosIsTheCode() {
+export default function Page3_behindTheLettersIsTheCode() {
   const router = useRouter();
   const handleFirstAnswer = () => {
     router.push("/page4_1");

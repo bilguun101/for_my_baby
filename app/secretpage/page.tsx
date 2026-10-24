@@ -13,7 +13,7 @@ export default function SecretPage() {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      router.replace("/page3_behindThePhotosIsTheCode");
+      router.replace("/page3_behindTheLettersIsTheCode");
     }, 3500);
     return () => clearTimeout(timer);
   }, [router]);
